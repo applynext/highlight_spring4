@@ -14,12 +14,12 @@
 	</properties>
 
 	<dependencies>
-<!-- 	增加JSR250支持 -->
-<dependency>
-	<groupId>javax.annotation</groupId>
-	<artifactId>jsr250-api</artifactId>
-	<version>${jsr250_api.version}</version>
-</dependency>
+		<!-- 增加JSR250支持 -->
+		<dependency>
+			<groupId>javax.annotation</groupId>
+			<artifactId>jsr250-api</artifactId>
+			<version>${jsr250_api.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -46,6 +46,18 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>${commons_io.version}</version>
+		</dependency>
+
+		<!-- 增加Spring测试的依赖包到Maven -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
 		</dependency>
 	</dependencies>
 
