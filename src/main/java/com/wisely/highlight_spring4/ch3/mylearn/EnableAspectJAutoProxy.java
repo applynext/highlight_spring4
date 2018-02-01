@@ -6,13 +6,14 @@
 //import java.lang.annotation.RetentionPolicy;
 //import java.lang.annotation.Target;
 //
+//import org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator;
 //import org.springframework.context.annotation.Import;
-//import org.springframework.scheduling.annotation.SchedulingConfiguration;
 //
 //@Target(ElementType.TYPE)
 //@Retention(RetentionPolicy.RUNTIME)
-//@Import(SchedulingConfiguration.class)
 //@Documented
-//public @interface EnableSheduling {
+//@Import(AspectJAwareAdvisorAutoProxyCreator.class)
+//public @interface EnableAspectJAutoProxy {
+//	boolean proxyTargetClass() default false;
 //
 //}
